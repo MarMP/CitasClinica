@@ -158,7 +158,6 @@ public class Paciente {
 			return false;
 		}
 		Paciente other = (Paciente) obj; // hago un casting del objeto obj
-
 		if (dni == null) {
 			if (other.dni != null) {
 				return false;
