@@ -143,7 +143,7 @@ public class Paciente {
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(dni, nombre, telefono);
+		return Objects.hash(dni);
 	}
 
 	@Override

@@ -44,13 +44,12 @@ public class Cita {
 		if (paciente == null) {
 			throw new NullPointerException("ERROR: El paciente de una cita no puede ser nulo.");
 		}
-
 		this.paciente = new Paciente(paciente);
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(fechaHora, paciente);
+		return Objects.hash(fechaHora);
 	}
 
 	@Override

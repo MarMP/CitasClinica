@@ -380,5 +380,5 @@ public class CitasTest {
 			fail(TIPO_NO_CORRECTO);
 		}
 	}
-
+ 
 }
