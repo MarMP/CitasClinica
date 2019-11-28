@@ -173,9 +173,5 @@ public class Paciente {
 	public String toString() {
 		return "nombre=" + nombre + " (" + getIniciales() + ")" + ", DNI=" + dni + ", teléfono=" + telefono;
 	}
-	
-	
-	
-	
-	
+		
 }

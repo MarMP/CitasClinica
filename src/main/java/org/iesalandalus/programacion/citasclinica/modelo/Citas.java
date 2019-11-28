@@ -44,11 +44,7 @@ public class Citas {
 	}
 
 	private boolean tamanoSuperado(int indice) {
-		if (indice >= tamano) {
-			return true;
-		} else {
-			return false;
-		}
+			return  indice >= tamano;	
 	}
 
 	private int buscarIndice(Cita cita) {
@@ -106,7 +102,7 @@ public class Citas {
 		int indice = buscarIndice(cita);
 
 		if (!tamanoSuperado(indice)) {
-			return coleccionCitas[indice] = new Cita(cita);
+			return new Cita(coleccionCitas[indice]);
 		} else {
 			return null;
 		}
